@@ -8,11 +8,11 @@ $(function() {
         } else {
             $(this).animate({ marginTop: "-20px" }, 500, "easeOutExpo");
         }
-        $(this).css("background-color", "tomato");
+        $(this).css("background-color", "green");
     }).on("mouseleave", function() {
         // Resets animations
         $(this).animate({ width: "100px", height: "100px", opacity: 1, marginTop: "0px" }, 500, "easeInOutQuad");
-        $(this).css("background-color", "steelblue");
+        $(this).css("background-color", "blue");
     });
 });
 
